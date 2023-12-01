@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+  }
+body{
+    background-color:cornflowerblue;
+    color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 90%;
+    max-width: 25em;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 2em;
+    border-radius: 0.8em
+}
+
+.logo{
+    display: flex;
+    gap: 15px;
+}
+
+.dropdowns{
+    display: flex;
+    gap: 15px;
+}
+
+label, select, input{
+    font-size: 1.2rem;
+}
+
+#amount{
+    width: 100%;
+    font-weight: 400;
+    border: none;
+    border-bottom:  2px solid #02002c;
+    color: black;
+    margin-bottom: 2px;
+    padding: 0.5em;
+}
+
+button {
+    font-size: 1.3rem;
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 1em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  #result {
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+    color: #02002c;
+    background-color: #e5dbff;
+    padding: 0.8em 0;
+  }

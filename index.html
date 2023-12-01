@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Change App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+        <img src="money-bill-solid.svg" alt="">
+        <h1>Currency Conventer</h1>
+        </div>
+        <div class="inputs">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" value="100">
+        </div>
+        <div class="dropdowns">
+            <label for="from">From:</label>
+            <select name="from" id="from"></select>
+            <label for="to">To:</label>
+            <select name="from" id="to"></select>
+        </div>
+            <button class="convertBtn">Convert</button>
+            <p id="result">Result: 1000</p>
+    </div>
+
+    <script src="currency-codes.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
